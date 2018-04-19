@@ -1,4 +1,6 @@
 # An-approach-to-Banker-s-Algorithm  
+Developed a tool that is going to give the safe sequence to avoid deadlock for multi-processor systems. User inputs 'Number of processes' and 'Number of resources available' based on which, 'Allocated', 'Available' and 'Max' resources are calculated. A Need Matrix is calculated and displays the safe sequence of the process that will avoid the deadlock  
+  
 A deadlock refers to a specific condition where two or more processes are waiting for release of a resource in a circular chain. Deadlock is a common problem in multiprocessing systems where many processes share a specific type of mutually exclusive resource known as software or soft lock. Deadlocks are particularly troubling because there is no general solution to avoid deadlocks.  
   
 A process must request a resource before using it and must release the resource after its use. Each process may request as many resources as it requires to carry out its designated task.  
